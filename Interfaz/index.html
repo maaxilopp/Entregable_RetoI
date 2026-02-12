@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title></title>Trabajo realizado por Maximiliano López</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Control de gastos</h1>
+
+  <div class="filtros">
+    <label>Mes:
+      <select id="mes"></select>
+    </label>
+
+    <label>Año:
+      <select id="anio"></select>
+    </label>
+
+    <button id="filtrar">Filtrar</button>
+  </div>
+
+  <h2>Total del mes: $<span id="total">0</span></h2>
+
+  <button id="btnAgregar">Agregar gasto</button>
+
+  <div id="formulario" class="oculto">
+    <input type="date" id="fecha">
+    <input type="text" id="categoria" placeholder="Categoría">
+    <input type="number" id="monto" placeholder="Monto">
+    <input type="text" id="descripcion" placeholder="Descripción (opcional)">
+    <button id="guardar">Guardar</button>
+  </div>
+
+  <h2>Listado de gastos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Categoría</th>
+        <th>Monto</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody id="tablaGastos"></tbody>
+  </table>
+
+  <script src="java.js"></script>
+</body>
+</html>
