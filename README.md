@@ -2,10 +2,6 @@
 
 [![Maximiliano López](https://img.shields.io/badge/GitHub-Maximiliano_López-87CEEB?logo=github&logoColor=white)](https://github.com/maaxilopp)
 
-
-Aplicación de escritorio desarrollada con Electron para el registro y seguimiento de gastos personales.
-Permite organizar, visualizar y filtrar gastos por mes y año, utilizando una base de datos local SQLite para mantener la información entre ejecuciones.
-
 ## Cómo ejecutar la aplicación
 
 El primer paso es descargar las dependencias en la terminal de la forma npm install 
