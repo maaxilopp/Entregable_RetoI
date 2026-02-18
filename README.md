@@ -1,8 +1,12 @@
 ## Primer entregable RETO I, App para gastos personales.
 
-Fue desarrollada con Electron para el registro y seguimiento de gastos personales.
+[![Maximiliano López](https://img.shields.io/badge/GitHub-Maximiliano_López-87CEEB?logo=github&logoColor=white)](https://github.com/maaxilopp)
 
-## Cómo ejecutar la aplicación
+
+Aplicación de escritorio desarrollada con Electron para el registro y seguimiento de gastos personales.
+Permite organizar, visualizar y filtrar gastos por mes y año, utilizando una base de datos local SQLite para mantener la información entre ejecuciones.
+
+# Cómo ejecutar la aplicación
 
 El primer paso es descargar las dependencias en la terminal de la forma npm install 
 
@@ -10,20 +14,32 @@ El segundo paso es inicializar la aplicación en la terminal npm start
 
 La aplicación se abrirá automáticamente, pudiendo agregar gastos y filtrar los gastos que se hicieron en cierto mes del año.
 
-## Funcionalidades 
+# Funcionalidades 
 
-Cómo fue solicitado en la consigna, se pueden incluir gastos, ingresando la fecha, categoría, monto y una descripción opcional, estos luego se almacenan con los gastos de cada mes.
+Registro de gastos ingresando Fecha, Categoría, Monto y una Descripción (opcional)
 
-Hay un botón para seleccionar de que mes y año se quieren ver los gastos.
+Almacenamiento persistente mediante SQLite local
 
-Automaticamente se calcula el total de los gastos de ese mes 
+Filtro de gastos por mes y año
 
-Se actualiza automaticamente al filtrar o agregar gastos.
+Cálculo automático del total mensual
 
- SE utiliza una base de datos SQLite local, los datos se mantienen entre ejecuciones de la aplicación.
+Actualización automática al agregar o filtrar gastos
+
+# Tecnologías utilizadas
+
+Electron
+
+SQLite
+
+HTML
+
+CSS
+
+JavaScript
 
 
-## Diseño
+# Diseño
 
 Me copó mucho CSS, por lo que decidí expermientar con ella, finalmente llegando a un diseño con tonalidades celestes y verdeagua, mis colores favoritos.
 
